@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Lakshan.Dev",
+  title: "Lakshan.dev",
   description: "Portfolio of Lakshan Wickramasinghe, BSc IT Graduate, Rajarata University of Sri Lanka.",
   icons: {
     icon: '/assets/mascot.png',
