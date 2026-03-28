@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 Lakshan.dev - Personal Portfolio
 
-## Getting Started
+A modern, high-performance, and secure personal portfolio website built to showcase my software engineering journey, academic milestones, and technical expertise.
+Built with a focus on Next.js 15, clean UI/UX, and robust backend security for handling user inquiries.
 
-First, run the development server:
+🔗 Live Demo: https://portfolio-plum-nu-58qz3d5e92.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✨ Why this project?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As an Information Technology undergraduate, I wanted to create a digital home that is more than just a static resume. This project was a deep dive into Server-Side Rendering (SSR), complex frontend animations, and building a secure communication bridge between the client and the server without exposing sensitive credentials.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🚀 Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Modern UI/UX: Glassmorphism design elements, glowing background effects, and a responsive mobile-first approach.
 
-## Learn More
+Interactive Animations: Page loads, scroll effects, and hover transitions powered by Framer Motion.
 
-To learn more about Next.js, take a look at the following resources:
+Smart Contact Form:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Backend API route built with Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sends emails directly using Nodemailer.
 
-## Deploy on Vercel
+ZeroBounce API integration to verify real email addresses.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Honeypot protection and Regex validation to block spam bots.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dynamic Content Modals: A custom-built smart modal to view PDF certificates and high-resolution images without leaving the page.
+
+CI/CD Pipeline: Integrated with GitHub and Vercel for fully automated continuous deployment.
+
+🛠️ Tech Stack
+
+Frontend: Next.js (React), Tailwind CSS, Framer Motion
+
+Backend: Node.js (Next.js API Routes), Nodemailer
+
+Security & Validation: ZeroBounce API, Custom Honeypot
+
+Hosting & Deployment: Vercel
+
+🔒 Security Measures
+
+This portfolio implements industry-standard security practices to protect backend services:
+
+Server-Side Execution: The contact form logic runs entirely on the server, ensuring API keys are never leaked to the client browser.
+
+Environment Variables: All credentials (Gmail App Passwords, API Keys) are encrypted and stored in Vercel's secure vault—never committed to version control.
+
+Spam Prevention: Implements Honeypot techniques and Regex validation to ensure only high-quality inquiries reach my inbox.
+
+Input Sanitization: Protects against malformed data during the contact form submission process.
+
+Designed & Built by Lakshan Wickramasinghe
