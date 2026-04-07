@@ -129,7 +129,16 @@ const certifications = [
   { id: 15, title: "Introduction to Data Science", issuer: "Cisco", type: "virtual", link: "https://www.credly.com/badges/35a07c2c-9446-4a65-80ed-e2895ccc05b3/linked_in_profile", file: "/assets/certs/cisco_datascience.pdf", logo: "https://cdn.simpleicons.org/cisco/049fd9" },
   { id: 16, title: "Introduction to Cybersecurity", issuer: "Cisco", type: "virtual", link: "https://www.credly.com/badges/82a099d6-dc1f-4703-a3a6-357526cefae1/linked_in_profile", file: "/assets/certs/cisco_cyber.pdf", logo: "https://cdn.simpleicons.org/cisco/049fd9" },
   { id: 17, title: "Introduction to Packet Tracer", issuer: "Cisco", type: "virtual", link: "https://www.credly.com/badges/a8d6162f-2072-42ed-8e29-cb825be2818b/linked_in_profile", file: "/assets/certs/cisco_packet.pdf", logo: "https://cdn.simpleicons.org/cisco/049fd9" },
-  { id: 18, title: "Computer Hardware Basics", issuer: "Cisco", type: "virtual", link: "https://www.credly.com/badges/586cf36e-f501-42dc-809c-a775834568e9/linked_in_profile", file: "/assets/certs/cisco_hardware.pdf", logo: "https://cdn.simpleicons.org/cisco/049fd9" }
+  { id: 18, title: "Computer Hardware Basics", issuer: "Cisco", type: "virtual", link: "https://www.credly.com/badges/586cf36e-f501-42dc-809c-a775834568e9/linked_in_profile", file: "/assets/certs/cisco_hardware.pdf", logo: "https://cdn.simpleicons.org/cisco/049fd9" },
+  {
+    id: 19,
+    title: "Introduction to Cybersecurity",
+    issuer: "Cisco Networking Academy",
+    type: "virtual",
+    link: "https://www.coursera.org/account/accomplishments/records/GFWSFSITKAVZ",
+    file: "/assets/certs/cybersecurity.pdf",
+    logo: "https://www.google.com/s2/favicons?domain=netacad.com&sz=128"
+  }
 ];
 
 const cards = [
