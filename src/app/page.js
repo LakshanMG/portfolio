@@ -302,7 +302,7 @@ export default function PortfolioSPA() {
             Lakshan Wickramasinghe.
           </h1>
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-8">
-            Machine Learning Enthusiast & <br className="hidden md:block" /> Full Stack Developer.
+            Machine Learning Enthusiast, Cybersecurity Enthusiast & <br className="hidden md:block" /> Full Stack Developer.
           </h2>
           <p className="max-w-3xl text-slate-400 leading-relaxed text-sm md:text-base font-medium mb-12">
             Highly motivated Information Technology graduate (BSc IT) with a passion for applying technical skills to solve practical challenges. Skilled in programming, web development, networking, machine learning, and database management, bringing a proactive and innovative approach to problem-solving.
