@@ -132,12 +132,12 @@ const certifications = [
   { id: 18, title: "Computer Hardware Basics", issuer: "Cisco", type: "virtual", link: "https://www.credly.com/badges/586cf36e-f501-42dc-809c-a775834568e9/linked_in_profile", file: "/assets/certs/cisco_hardware.pdf", logo: "https://cdn.simpleicons.org/cisco/049fd9" },
   {
     id: 19,
-    title: "Introduction to Cybersecurity",
-    issuer: "Cisco Networking Academy",
+    title: "Foundations of Cybersecurity",
+    issuer: "Google",
     type: "virtual",
     link: "https://www.coursera.org/account/accomplishments/records/GFWSFSITKAVZ",
-    file: "/assets/certs/cybersecurity.pdf",
-    logo: "https://www.google.com/s2/favicons?domain=netacad.com&sz=128"
+    file: "/assets/certs/google_cyber.pdf",
+    logo: "https://www.google.com/s2/favicons?domain=google.com&sz=128"
   }
 ];
 
